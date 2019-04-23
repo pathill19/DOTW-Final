@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+
+  background: url(../img/well.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+#container{
+	text-align: center;
+}
+
+img{
+	width:200px ;
+	height:300px ;
+	display: inline-block
+}
+
