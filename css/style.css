@@ -1,11 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic');
 body {
   margin: 0;
   height: 100vh;
   display: flex;
   align-items: center;
-
+  font-family: 'Nanum Gothic', sans-serif;
+}
+#home{
   background: url(../img/well.jpg) no-repeat center center fixed;
   background-size: cover;
+  color: #ffffff;
+  
+}
+#home a{
+  color: white;
+  text-decoration: none;
+}
+#home a:hover{
+  color: red;
 }
 #container{
 	text-align: center;
