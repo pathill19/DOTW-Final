@@ -45,16 +45,10 @@ a:hover{
 #agrad{
   background: url(../img/themet.jpg) no-repeat center center fixed;
   background-size: cover;
-/*  overflow: hidden;*/
-  /*background-color: #000000;*/
 }
 #home a{
   color: red;
   text-decoration: none;
-}
-.hide{
- /* visibility: hidden;*/
- display: none;
 }
 /*Question Mark Styles*/
 .mark{
@@ -123,11 +117,7 @@ a:hover{
   left: 0;
   width: 100%;
   height:100%;
-/*  mix-blend-mode: hard-light;*/
 }
-/*#agrad img{
-  mix-blend-mode: hard-light;
-}*/
 #space img{
   position: fixed;
   top: 0;
@@ -142,7 +132,6 @@ a:hover{
   left: 35%;
   width: auto;
   height:100%;
-/*  opacity: .5;*/
   animation-name: bye;
   animation-duration: 5s;
   animation-timing-function: ease-in-out;
@@ -161,7 +150,6 @@ a:hover{
   animation-duration: 5s;
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
-/*  mix-blend-mode: hard-light;*/
  }
 
  @keyframes up{
