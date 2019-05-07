@@ -1,10 +1,16 @@
+/*Global Styles*/
 @import url('https://fonts.googleapis.com/css?family=Great+Vibes|Special+Elite');
 body {
   margin: 0;
   height: 100vh;
   display: flex;
   align-items: center;
+  text-align: center;
+   overflow: hidden;
   font-family: 'Special Elite', serif;
+}
+#container{
+  margin: 0 32% 0 32%;
 }
 h2{
   font-weight: normal;
@@ -24,6 +30,7 @@ a:visited{
 a:hover{
   color: red;
 }
+/*Page by page*/
 #home{
   background: url(../img/well.jpg) no-repeat center center fixed;
   background-size: cover;
@@ -36,7 +43,7 @@ a:hover{
 }
 
 #agrad{
-  background: url(../img/themet2.jpg) no-repeat center center fixed;
+  background: url(../img/themet.jpg) no-repeat center center fixed;
   background-size: cover;
 /*  overflow: hidden;*/
   /*background-color: #000000;*/
@@ -49,6 +56,7 @@ a:hover{
  /* visibility: hidden;*/
  display: none;
 }
+/*Question Mark Styles*/
 .mark{
   font-size: 1rem;
 }
@@ -67,10 +75,14 @@ a:hover{
   bottom: 0px;
   left: 30%;
 }
+/*Other text styles*/
+#cent{
+  left: 40%;
+}
 .question{
   position: absolute;
     top: 0px;
-    left: 35%;
+    left: 32%;
     color: white;
 
 }
@@ -81,6 +93,8 @@ a:hover{
     color: white;
 
 }
+
+/*Playing with the images here*/
 .alph7{
   opacity: 0.7;
 }
@@ -135,6 +149,20 @@ a:hover{
 
 @keyframes bye {   
   25%{opacity: .5;}
-  100% {transform: scale(.001);}
+  100% {transform: scale(.001);opacity: .5;}
+ }
+ .move{
+  overflow: hidden;
+  opacity: .3;
+  animation-name: up;
+  animation-duration: 5s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+ }
+
+ @keyframes up{
+  0%{transform: translate(-100px, 50px);}
+  50% {transform: translate(10%, 10%);}
+  100%{transform: translate(-100px, 50px);}
  }
 
