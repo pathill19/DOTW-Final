@@ -144,6 +144,9 @@ a:hover{
   100% {transform: scale(.001); opacity: .5;}
  }
  .move{
+  position: absolute;
+  top: 50px;
+  left: 100px;
   overflow: hidden;
   opacity: .3;
   animation-name: up;
@@ -153,8 +156,9 @@ a:hover{
  }
 
  @keyframes up{
-  0%{transform: translate(-100px, 50px);}
-  50% {transform: translate(10%, 10%);}
-  100%{transform: translate(-100px, 50px);}
+  0%{transform: translate(0px, 800px);}
+  20% {transform: translate(10%, 10%);}
+  35%{transform: translate(0px, 800px);}
+  100%{transform: translate(0px, 800px);}
  }
 
